@@ -1,0 +1,21 @@
+@url = http://localhost:5120
+
+GET {{url}}/productos
+
+###
+GET {{url}}/productos/1
+
+###
+POST {{url}}/productos
+Content-Type: application/json
+
+{ "nombre": "Lapiz", "precio": 8.50, "stock": 100 }
+
+###
+PUT {{url}}/productos/1
+Content-Type: application/json
+
+{ "nombre": "Cuaderno grande", "precio": 40, "stock": 15 }
+
+###
+DELETE {{url}}/productos/3
