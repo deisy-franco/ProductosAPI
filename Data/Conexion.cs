@@ -2,7 +2,6 @@ using Microsoft.Data.SqlClient;
 
 namespace ProductosAPI.Data;
 
-// PUNTO 1: CONEXION
 // Esta clase lee la cadena de conexion de appsettings.json
 // y nos da un objeto SqlConnection listo para usarse.
 public class Conexion
